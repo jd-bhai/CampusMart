@@ -87,7 +87,7 @@
                     android:layout_height="20dp"
                     android:layout_marginEnd="10dp"
                     android:src="@drawable/email_png"
-                    android:tint="#12306B" />
+                    app:tint="#12306B" />
 
                 <EditText
                     android:id="@+id/email"
@@ -128,7 +128,7 @@
                     android:layout_height="20dp"
                     android:layout_marginEnd="10dp"
                     android:src="@drawable/password_png"
-                    android:tint="#12306B" />
+                    app:tint="#12306B" />
 
                 <EditText
                     android:id="@+id/password"
@@ -150,7 +150,7 @@
                     android:layout_height="20dp"
                     android:layout_marginStart="8dp"
                     android:src="@drawable/close_eye_png"
-                    android:tint="#12306B" />
+                    app:tint="#12306B" />
 
             </LinearLayout>
 

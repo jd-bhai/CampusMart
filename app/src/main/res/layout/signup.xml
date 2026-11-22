@@ -20,7 +20,8 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="18dp"
             android:src="@drawable/back_arrow_png"
-            android:tint="#12306B" />
+            app:tint="#12306B"
+            />
 
     </RelativeLayout>
 
@@ -91,7 +92,8 @@
                     android:layout_height="20dp"
                     android:layout_marginEnd="10dp"
                     android:src="@drawable/email_png"
-                    android:tint="#12306B" />
+                    app:tint="#12306B"
+                     />
 
                 <EditText
                     android:id="@+id/email"
@@ -132,7 +134,8 @@
                     android:layout_height="20dp"
                     android:layout_marginEnd="10dp"
                     android:src="@drawable/password_png"
-                    android:tint="#12306B" />
+                    app:tint="#12306B"
+                    />
 
                 <EditText
                     android:id="@+id/password"
@@ -154,7 +157,8 @@
                     android:layout_height="20dp"
                     android:layout_marginStart="8dp"
                     android:src="@drawable/close_eye_png"
-                    android:tint="#12306B" />
+                    app:tint="#12306B"
+                     />
 
             </LinearLayout>
 
@@ -181,7 +185,8 @@
                     android:layout_height="20dp"
                     android:layout_marginEnd="10dp"
                     android:src="@drawable/password_png"
-                    android:tint="#12306B" />
+                    app:tint="#12306B"
+                    />
 
                 <EditText
                     android:id="@+id/confirmPassword"
@@ -203,7 +208,8 @@
                     android:layout_height="20dp"
                     android:layout_marginStart="8dp"
                     android:src="@drawable/close_eye_png"
-                    android:tint="#12306B" />
+                    app:tint="#12306B"
+                    />
 
             </LinearLayout>
 
