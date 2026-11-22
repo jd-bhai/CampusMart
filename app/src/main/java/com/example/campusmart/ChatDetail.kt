@@ -1,6 +1,8 @@
 package com.example.campusmart
 
 import android.os.Bundle
+import android.view.View
+import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +18,10 @@ class ChatDetail : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val etMessage = findViewById<EditText>(R.id.etMessage)
+
+        findViewById<View>(R.id.ivBack).setOnClickListener { finish() }
+        findViewById<View>(R.id.btnSend).setOnClickListener { etMessage.setText("") }
     }
 }

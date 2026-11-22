@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_conditions">
+        <item>Brand new</item>
+        <item>Like new</item>
+        <item>Very good</item>
+        <item>Good</item>
+        <item>Fair</item>
+    </string-array>
+</resources>
