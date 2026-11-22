@@ -156,25 +156,26 @@
 
     </RelativeLayout>
 
-    <!-- Navy header -->
+    <!-- Header -->
     <LinearLayout
         android:id="@+id/layoutHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:background="#12306B"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
         android:orientation="vertical"
         android:paddingStart="24dp"
         android:paddingTop="48dp"
         android:paddingEnd="24dp"
-        android:paddingBottom="20dp">
+        android:paddingBottom="12dp">
 
         <TextView
             android:id="@+id/tvAppName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="CampusMart"
-            android:textColor="#FFFFFF"
+            android:textColor="#12306B"
             android:textSize="26sp"
             android:textStyle="bold" />
 
@@ -189,7 +190,8 @@
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:contentDescription="Location"
-                android:src="@drawable/ic_location" />
+                android:src="@drawable/ic_location"
+                android:tint="#12306B" />
 
             <TextView
                 android:id="@+id/tvLocation"
@@ -197,7 +199,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
                 android:text="FAST NUCES Lahore"
-                android:textColor="#C9D6E8"
+                android:textColor="#777777"
                 android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
