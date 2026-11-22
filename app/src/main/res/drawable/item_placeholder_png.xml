@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="150dp"
+    android:height="100dp"
+    android:viewportWidth="300"
+    android:viewportHeight="200">
+
+    <!-- Soft Light Blue Rounded Background -->
+    <path
+        android:fillColor="#DCE8FA"
+        android:pathData="M16,0 H284 A16,16 0 0 1 300,16 V184 A16,16 0 0 1 284,200 H16 A16,16 0 0 1 0,184 V16 A16,16 0 0 1 16,0 Z" />
+
+    <!-- White Sun Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M210,46 A18,18 0 1 1 209.9,46 Z" />
+
+    <!-- Left Large Mountain Peak -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,160 L126,90 L207,160 Z" />
+
+    <!-- Right Small Mountain Peak -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M180,160 L217,110 L265,160 Z" />
+
+</vector>

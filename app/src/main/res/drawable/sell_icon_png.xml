@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="54dp"
+    android:height="54dp"
+    android:viewportWidth="54"
+    android:viewportHeight="54">
+    <!-- Dark Blue Circle Background -->
+    <path
+        android:fillColor="#12306B"
+        android:pathData="M27,0 C41.91,0 54,12.09 54,27 C54,41.91 41.91,54 27,54 C12.09,54 0,41.91 0,27 C0,12.09 12.09,0 27,0 Z" />
+    <!-- White Plus Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,16 H29 V25 H38 V29 H29 V38 H25 V29 H16 V25 H25 Z" />
+</vector>
