@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#173B70"
-    >
+    android:background="@color/bg_splash_navy">
 
     <ImageView
+        android:id="@+id/logo"
         android:layout_width="110dp"
         android:layout_height="110dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/logo"
         android:background="@drawable/rounded_corner"
         android:clipToOutline="true"
-        android:id="@+id/logo"
-        />
+        android:scaleType="centerInside"
+        android:src="@drawable/logo_png" />
 
     <TextView
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/logo"
@@ -28,21 +27,19 @@
         android:text="CampusMart"
         android:textColor="#FFFFFF"
         android:textSize="26sp"
-        android:textStyle="bold"
-        android:id="@+id/name"
-        />
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/tagline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/name"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="Buy • Sell • Borrow"
-        android:textColor="#FFFFFF"
+        android:textColor="#E1E7F0"
         android:textSize="18sp"
-        android:id="@+id/tagline"
-        />
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -53,6 +50,6 @@
         android:text="Your campus. Your marketplace"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        />
+        android:textStyle="bold" />
 
 </RelativeLayout>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#F4F7FB">
+    android:background="#F8F9FA"
+    android:orientation="vertical">
 
     <!-- Back Button -->
     <RelativeLayout
@@ -20,7 +19,7 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="18dp"
             android:src="@drawable/back_arrow_png"
-            android:tint="#000000"/>
+            android:tint="#12306B" />
 
     </RelativeLayout>
 
@@ -28,27 +27,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="20dp"
         android:gravity="center"
-        android:layout_marginTop="85dp"
-        android:layout_marginBottom="20dp">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Create an account"
-            android:textColor="#000000"
+            android:textColor="#111111"
             android:textSize="25sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
             android:text="Provide your email and password to continue"
             android:textColor="#666666"
             android:textSize="14sp"
-            android:textStyle="bold"
-            android:layout_marginTop="6dp"/>
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -72,38 +71,40 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
                 android:text="Email Address"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#111111"
                 android:textSize="12sp"
-                android:layout_marginTop="22dp"
-                android:layout_marginBottom="8dp"/>
+                android:textStyle="bold" />
 
             <!-- Email Row -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:orientation="horizontal"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
+                    android:layout_marginEnd="10dp"
                     android:src="@drawable/email_png"
-                    android:tint="#000000"
-                    android:layout_marginEnd="10dp"/>
+                    android:tint="#12306B" />
 
                 <EditText
                     android:id="@+id/email"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/input_background"
                     android:hint="Enter your email"
                     android:inputType="textEmailAddress"
-                    android:singleLine="true"
-                    android:textSize="13sp"
                     android:paddingHorizontal="12dp"
-                    android:background="@drawable/input_background"/>
+                    android:singleLine="true"
+                    android:textColor="#111111"
+                    android:textColorHint="#999999"
+                    android:textSize="13sp" />
 
             </LinearLayout>
 
@@ -111,46 +112,48 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Password"
-                android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="12sp"
                 android:layout_marginTop="14dp"
-                android:layout_marginBottom="8dp"/>
+                android:layout_marginBottom="8dp"
+                android:text="Password"
+                android:textColor="#111111"
+                android:textSize="12sp"
+                android:textStyle="bold" />
 
             <!-- Password Row -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:orientation="horizontal"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
+                    android:layout_marginEnd="10dp"
                     android:src="@drawable/password_png"
-                    android:tint="#000000"
-                    android:layout_marginEnd="10dp"/>
+                    android:tint="#12306B" />
 
                 <EditText
                     android:id="@+id/password"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/input_background"
                     android:hint="Enter your password"
                     android:inputType="textPassword"
-                    android:singleLine="true"
-                    android:textSize="13sp"
                     android:paddingHorizontal="12dp"
-                    android:background="@drawable/input_background"/>
+                    android:singleLine="true"
+                    android:textColor="#111111"
+                    android:textColorHint="#999999"
+                    android:textSize="13sp" />
 
                 <ImageView
                     android:id="@+id/togglePassword"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/eye"
-                    android:tint="#000000"
-                    android:layout_marginStart="8dp"/>
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/close_eye_png"
+                    android:tint="#12306B" />
 
             </LinearLayout>
 
@@ -158,86 +161,88 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="8dp"
                 android:text="Confirm Password"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#111111"
                 android:textSize="12sp"
-                android:layout_marginTop="32dp"
-                android:layout_marginBottom="8dp"/>
+                android:textStyle="bold" />
 
             <!-- Confirm Password Row -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:orientation="horizontal"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
+                    android:layout_marginEnd="10dp"
                     android:src="@drawable/password_png"
-                    android:tint="#000000"
-                    android:layout_marginEnd="10dp"/>
+                    android:tint="#12306B" />
 
                 <EditText
                     android:id="@+id/confirmPassword"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/input_background"
                     android:hint="Reenter your password"
                     android:inputType="textPassword"
-                    android:singleLine="true"
-                    android:textSize="13sp"
                     android:paddingHorizontal="12dp"
-                    android:background="@drawable/input_background"/>
+                    android:singleLine="true"
+                    android:textColor="#111111"
+                    android:textColorHint="#999999"
+                    android:textSize="13sp" />
 
                 <ImageView
                     android:id="@+id/toggleConfirmPassword"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/eye"
-                    android:tint="#000000"
-                    android:layout_marginStart="8dp"/>
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/close_eye_png"
+                    android:tint="#12306B" />
 
             </LinearLayout>
 
-            <!-- Create Account -->
+            <!-- Create Account Button -->
             <Button
                 android:id="@+id/btnCreateAccount"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginTop="18dp"
+                android:background="@drawable/button_background"
                 android:text="Create account"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp"
-                android:textStyle="bold"
-                android:background="@drawable/button_background"/>
+                android:textStyle="bold" />
 
             <!-- Already Have Account -->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="36dp">
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Already have an account? "
                     android:textColor="#888888"
-                    android:textStyle="bold"
-                    android:textSize="14sp"/>
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/goToLogin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sign in"
-                    android:textColor="#173B70"
-                    android:textStyle="bold"
-                    android:textSize="14sp"/>
+                    android:textColor="#12306B"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
