@@ -186,6 +186,7 @@
 
             <!-- Chat Item 1: Sara Khan -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardChat1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -259,6 +260,7 @@
 
             <!-- Chat Item 2: Ali Raza -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardChat2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
@@ -332,6 +334,7 @@
 
             <!-- Chat Item 3: Hamza Ahmed -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardChat3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
@@ -405,6 +408,7 @@
 
             <!-- Chat Item 4: Ayesha M. -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardChat4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
@@ -478,6 +482,7 @@
 
             <!-- Chat Item 5: Usman Tariq -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardChat5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
