@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CampusMart">
         <activity
-            android:name=".Splash"
+            android:name=".Home"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -21,22 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Login"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".SignUp"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".ForgotPassword"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".Home"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".BuySell"
             android:exported="false"
@@ -79,10 +63,6 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".EditProfile"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".OtpVerify"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity

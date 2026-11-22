@@ -24,7 +24,7 @@ class MyProfile : AppCompatActivity() {
         findViewById<View>(R.id.cardSavedItems).setOnClickListener { open(Marketplace::class.java) }
         findViewById<View>(R.id.cardLogout).setOnClickListener {
             startActivity(
-                Intent(this, Login::class.java)
+                Intent(this, Home::class.java)
                     .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
             )
             finish()
